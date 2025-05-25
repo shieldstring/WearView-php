@@ -24,10 +24,10 @@
                inputmode="email" autocomplete="email" />
 
         <label for="location">Location / Room<span aria-hidden="true">*</span></label>
-        <input type="text" id="location" name="Location" required />
+        <input type="text" id="location" name="location" required />
 
         <label for="description">Brief description<span aria-hidden="true">*</span></label>
-        <textarea id="description" name="Description" rows="4" required></textarea>
+        <textarea id="description" name="description" rows="4" required></textarea>
 
         <button type="submit">Submit request</button>
       </fieldset>

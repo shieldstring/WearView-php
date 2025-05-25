@@ -27,8 +27,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <main>
       <h2>Login to IT Support System</h2>
   <form method="POST" id="loginForm">
-    <input name="username" placeholder="Username" required>
-    <input type="password" name="password" placeholder="Password" required>
+  
+      <label for="username">Username:</label>
+    <input name="username" placeholder="Username" id="username" required>
+    <label for="password">Password:</label>
+    <input type="password" name="password" placeholder="Password" id="password"  required>
     <button type="submit">Login</button>
   </form>
   <?php if (isset($error)) echo "<p style='color:red;'>$error</p>"; ?>
